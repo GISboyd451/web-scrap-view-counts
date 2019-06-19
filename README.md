@@ -17,13 +17,13 @@ Web scrap dynamic websites using Selenium by CSS_SELECTOR in python.
 - selenium (https://pypi.org/project/selenium/)
 
 #### Drivers 
-*Copied from the selenium homepage:
+Copied from the selenium homepage:
 
-"Selenium requires a driver to interface with the chosen browser. Firefox, for example, requires geckodriver, which needs to be installed before the script can be run. Make sure it’s in your PATH, e. g., place it in /usr/bin or /usr/local/bin.
+*Selenium requires a driver to interface with the chosen browser. Firefox, for example, requires geckodriver, which needs to be installed before the script can be run. Make sure it’s in your PATH, e. g., place it in /usr/bin or /usr/local/bin.*
 
-Failure to observe this step will give you an error selenium.common.exceptions.WebDriverException: Message: ‘geckodriver’ executable needs to be in PATH.
+*Failure to observe this step will give you an error selenium.common.exceptions.WebDriverException: Message: ‘geckodriver’ executable needs to be in PATH.*
 
-Other supported browsers will have their own drivers available. Links to some of the more popular browser drivers follow."
+*Other supported browsers will have their own drivers available. Links to some of the more popular browser drivers follow.*
 
 Broswer | Driver Link
 ------------ | -------------
