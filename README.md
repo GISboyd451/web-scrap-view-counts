@@ -34,9 +34,28 @@ Firefox | https://github.com/mozilla/geckodriver/releases
 Edge: | https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 Safari | https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 
-## Running The Script
-
 ## Documentation
+This script currently operates off of a table (excel, csv, etc.) to retrieve the list of URLs the user would like to pass into selenium and find the 'View Count:' number. 
+
+EXCEL CURRENT SETUP
+
+Story_Map | Creator(s) | Views | Total Views | Last_Count | Story_URL
+------------ | -------------|-------------|-------------|-------------|-------------|
+Text Field | Text Field | Integer Field | Integer Field | Date Time | URL
+
+Once the user's table has been established in the variable 'df', the user will then need to identify which columns/fields are needed in lines 84-93. 
+
+CURRENT VARAIBLE VALUES IN SCRIPT
+
+Columns | Field Name in Table
+------------ | -------------
+col1 | 'Story_Map'
+col2 | 'Views'
+col3 | 'Total_Views'
+col4 | 'Last_Count'
+col5 | 'Story_URL'
+
+## Running The Script
 
 ## Release Notes
 
