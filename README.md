@@ -7,7 +7,7 @@ Although the usage was intended for primarily what was stated above, it would be
 
 ## Requirements
 * Python 3.4+
-* Works on Linux, Windows. Have not tested on Mac OSX.
+* Works on Linux, Windows, and Mac OSX.
 
 #### Packages Needed
 - os (default)
