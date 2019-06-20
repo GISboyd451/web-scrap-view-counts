@@ -2,7 +2,7 @@
 Web scrap dynamic websites using Selenium by CSS_SELECTOR in python.
 
 ## Overview
-The original purpose of this script was to web scrap dynamic websites (that use JAVA behind the scenes) and search for the "View Count:" element by CSS_SELECTOR. After retrieving the view count element, the python script would parse out the unnecessary information and make a list of numbers that were contained within the web element and then output them inside an excel file with other ancillary data.
+The original purpose of this script was to web scrape dynamic websites (that use JAVA behind the scenes) and search for the "View Count:" element by CSS_SELECTOR. After retrieving the view count element, the python script would parse out the unnecessary information and make a list of numbers that were contained within the web element and then output them inside an excel file with other ancillary data.
 Although the usage was intended for primarily what was stated above, it would be very simple to modify the CSS_SELECTOR line to match a user's needs.
 
 ## Requirements
