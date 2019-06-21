@@ -56,8 +56,20 @@ col4 | 'Last_Count'
 col5 | 'Story_URL'
 
 ## Running The Script
+Current setup is in python 3.
+
+Update lines:
+Lines 69-72: Browser and webdriver paths will need to be changed based on user 'file paths'.
+
+Lines 76-82: .xlsx input file path will need to be changed based on user 'file paths'.
+
+Lines 84-93: The columns/fields are user defined based upon the input table.
+
+Lines 135-142: .xlsx output file path will need to be changed based on user 'file paths'.
+run script
 
 ## Release Notes
+Version: v1 06/21/2019
 
 ## Usage
 
