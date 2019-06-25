@@ -45,7 +45,7 @@ Text Field | Text Field | Integer Field | Integer Field | Date Time | URL
 
 Once the user's table has been established in the variable 'df', the user will then need to identify which columns/fields are needed in lines 84-93. 
 
-CURRENT VARAIBLE VALUES IN SCRIPT
+CURRENT VARIABLE VALUES IN SCRIPT
 
 Columns | Field Name in Table
 ------------ | -------------
