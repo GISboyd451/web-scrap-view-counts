@@ -56,7 +56,6 @@ col4 | 'Last_Count'
 col5 | 'Story_URL'
 
 ## Running The Script
-Current setup is in python 3.
 
 Update lines:
 
@@ -72,7 +71,3 @@ run script
 
 ## Release Notes
 Version: v1 06/21/2019
-
-## Usage
-
-## Author Notes
