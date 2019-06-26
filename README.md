@@ -12,6 +12,7 @@ Although the usage was intended for primarily what was stated above, it would be
 #### Packages Needed
 - os (default)
 - time (default)
+- datetime (https://docs.python.org/3/library/datetime.html)
 - pandas (http://pandas.pydata.org/)
 - numpy (https://pypi.org/project/numpy/)
 - requests (https://pypi.org/project/requests/)
