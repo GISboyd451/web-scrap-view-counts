@@ -64,17 +64,17 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
 # Sample path for Firefox driver syntax
-#browser = webdriver.Firefox(executable_path='T:\\ProjectsNational\\NationalDataQuality\\Sprint\\####_scripts\\calculate_views\\geckodriver')
+#browser = webdriver.Firefox(executable_path='PATH\\calculate_views\\geckodriver')
 
 # Disable Extensions in order to bypass admin error
 capabilities = { 'chromeOptions':  { 'useAutomationExtension': False}}
 # Sample path for Chrome driver syntax w/ options
-browser = webdriver.Chrome(executable_path='T:\\ProjectsNational\\NationalDataQuality\\Sprint\\Alec_scripts\\calculate_views\\chromedriver',desired_capabilities = capabilities)
+browser = webdriver.Chrome(executable_path='PATH\\calculate_views\\chromedriver',desired_capabilities = capabilities)
 #print(type(browser))
 
 # Point to directory with excel (change wd)
 try:
-    os.chdir("T:/ProjectsNational/NationalDataQuality/Sprint/Alec_scripts/calculate_views") #This will have to be changed if excel sheet is moved or path is different for user
+    os.chdir("PATH/calculate_views") #This will have to be changed if excel sheet is moved or path is different for user
     print("Directory Changed")
 except:
     print("Directory not changed")
@@ -132,7 +132,7 @@ Total = df[col2].sum()
 df[col3] = Total
 
 #Write information to excel:
-out_path = 'T:\\ProjectsNational\\NationalDataQuality\\Sprint\\Alec_scripts\\calculate_views\\story_map_view_counts.xlsx' #Output path should be the same everytime because we are updating table
+out_path = 'OUTPATH\\story_map_view_counts.xlsx' #Output path should be the same everytime because we are updating table
 writer = pd.ExcelWriter(out_path , engine='xlsxwriter')
 df.to_excel(writer, sheet_name='Sheet1', index = False)
 try:
