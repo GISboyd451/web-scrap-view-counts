@@ -72,3 +72,4 @@ run script
 
 ## Release Notes
 Version: v1 06/21/2019
+Version: v2 02/27/2020
